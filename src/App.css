@@ -1,0 +1,133 @@
+.App{
+  font-family: "Roboto", sans-serif;
+ background-image: linear-gradient(to right, #5a8e8f,#b3f1f2);
+
+ display: flex;
+ justify-content: center;
+}
+.todo-container{
+ background-color: aliceblue;
+ width:60%;
+ padding: 10px;
+height: auto;
+min-height:0px;
+margin-top: 20px;
+margin-bottom: 20px;
+overflow-y: auto;
+border-radius: 10px;
+box-shadow: 5px 5px 5px 5px #5a8e8f;
+}
+h1{
+  text-align: center;
+  color:#0d6c6e;
+}
+.tasklist{
+  text-align: center;
+}
+input{
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #b3f1f2;
+  
+ 
+}
+input:focus{
+  border-color:#0d6c6e;   
+}
+.add-btn{
+  margin-left: 10px;
+  width: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #0d6c6e;
+  color: white;
+  font-size: 15px;
+  border-color: #b3f1f2;
+  cursor: pointer;
+  font-weight: bold;
+}
+.update-btn{
+  margin-left: 10px;
+  width: 70px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:#b3f1f2;
+  color:black;
+  font-size: 15px;
+  border-color: #b3f1f2;
+  cursor: pointer;
+  font-weight: bold;
+}
+.taskList{
+color: #0d6c6e;
+font-size: 20px;
+
+margin-top:  20px;
+
+}
+.todo-container ul{
+  list-style: none;   
+  padding: 15px;          
+  margin: 0;           
+  width: 100%;         
+  text-align: left; 
+}
+.todo-container li{
+   display: flex;         
+  align-items: center;    
+  justify-content: space-between; 
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.action-buttons {
+  display: flex !important;
+  flex-direction: row;     
+  align-items:center;
+  gap: 5px; 
+  white-space: nowrap;  
+}
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+.delete-btn{
+  margin-left: 10px;
+  width: 70px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:#f14304;
+  color:black;
+  font-size: 15px;
+  border-color: #b3f1f2;
+  cursor: pointer;
+  font-weight: bold;
+}
+.edit-btn{
+  margin-left: 10px;
+  width: 70px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:#04a62d;
+  color:black;
+  font-size: 15px;
+  border-color: #b3f1f2;
+  cursor: pointer;
+  font-weight: bold;
+}
+.check{
+  font-size: 15px;
+  color: #0d6c6e;
+}
+.input-check{
+ width: 22px;         
+  height: 22px;
+  cursor: pointer;  
+  accent-color: #0d6c6e; 
+}
